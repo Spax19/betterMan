@@ -2,39 +2,32 @@
     background-color: #1D5757;
     background-size: cover;
     position: absolute;
-    width: 100%;
-    height: 100vh;
     text-align: center;
-    padding: 20%;
+    padding: 10%
 }
 
-.main h1{
+h1{
     color: #fff;
-    line-height: 66px;
-    font-weight: 800;
+    font-weight: 800px;
     font-size: 55px;
 }
 
-.main .starting{
+.starting{
     color: #000;
-    margin-top: 75px;
+    margin-top: 55px;
 }
 
-.main p{
-    color: #fff;
-    margin-top: 75px;
-}
-
-.main .button{
+.button{
     align-content: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.main button{
+.button{
     width: 300px;
     height: 50px;
     align-self: center;
+    padding-top: 25px;
 }
 
 .login{
@@ -44,18 +37,35 @@
     border-radius: 50px;
 }
 
-.signup {
+.welcomeBtn{
     background: #fff;
     color: #26A7A7;
     border: none;
     border-radius: 50px;
+ 
 }
 
-@media screen and (max-width:768px) {
+.welcome{
+    color: whitesmoke;
+    margin-top: 55px;
+}
+
+@media screen and (max-width:700px) {
 
     .main button{
         display: block;
         width: 300px;
         height: 50px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .button{
+        width: 300px;
+        height: 50px;
+        align-self: center;
+        padding-top: 25px;
     }
 }

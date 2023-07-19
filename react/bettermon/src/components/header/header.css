@@ -2,12 +2,13 @@
 
 .head{
     padding: 20px;
-    color: #000;
+    background-color: #b4d2d2;
 }
 
 .logo h1{
-    font-size: 35px;
-    font-weight: 900;
+    font-size: 25px;
+    padding: auto;
+    text-align: center;
 }
 
 .head .icon{
@@ -33,11 +34,11 @@ header li{
 header ul li a {
     color: #000;
     font-weight: 500;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 header ul li a:hover{
-    color: #fff;
+    color: #71AEAE;
 }
 
 .start{

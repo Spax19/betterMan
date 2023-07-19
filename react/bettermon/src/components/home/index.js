@@ -12,23 +12,24 @@ const Main = () => {
     return (
       <div>
         <div className='main'>
+
           <h1>BETTER-MAN</h1>
 
           <p className='starting'>START LEARNING TODAY!</p>
 
-          <p>standard markup language for designed to be displayed in a web browser. 
-            It is often technologies such as Cascading Style Sheets and scripting languages 
-            such as Cascading Style Sheets and scripting
-            </p>
+          <p className='welcome'>
+            Elevating Minds, Enriching Futures – Better-Man: Cultivating a generation of 
+            empowered minds, equipped with knowledge, resilience, and compassion. 
+            Together, we embrace diversity, spark curiosity, 
+            and pave the way for a world where every young star thrives and leaves an indelible 
+            mark on society.
+          </p>
 
             <div className='button'>
 
-                <button  
-                    className='signup'
-                    onClick={() => history.push('/hero')}
-                    >Get Started
+                <button  className='welcomeBtn' onClick={() => history.push('/hero')}>
+                    Get Started
                 </button>
-
 
                 <Router>
                     <Switch>

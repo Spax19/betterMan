@@ -10,10 +10,10 @@
     height: 100vh;
     padding-top: 20%;
     padding-left: 50px;
-    color: #000;
+    
 }
 
-.hero #heading h3{
+#heading h3{
     color: #fff;
 }
 

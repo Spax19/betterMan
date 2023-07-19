@@ -7,7 +7,7 @@ const Head = () => {
 
             <div className="container flexDirection">
                 <div className="logo">
-                    <h1>BetterMon</h1>
+                    <h1>Better-Man</h1>
                 </div>
 
                 <div className="social">
