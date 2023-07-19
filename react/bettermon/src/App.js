@@ -8,7 +8,7 @@ import Register from './components/home/register';
 
 const App = () => {
   return (
-    <>
+    
       <Router>
         <Switch>
           <Route path='/' exact component={Home} /> 
@@ -17,7 +17,7 @@ const App = () => {
           <Route path='/register' exact component={Register} /> 
         </Switch>
       </Router>
-    </>
+    
   )
 }
 

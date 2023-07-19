@@ -6,7 +6,7 @@ import Header from '../../header/header';
 const Hero = () => {
   return (
     <>
-    <Header />
+        <Header />
         <section className='hero'>
 
             <div className="cntainer">
